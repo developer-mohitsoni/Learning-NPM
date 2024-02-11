@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "02_work-with-npm",
+  "version": "1.0.0",
+  "description": "First NPM Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf .parcel-cache && parcel",
+    "build": "rm -rf .parcel-cache && parcel build"
+  },
+  "author": "Mohit",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "buffer": "^6.0.3"
+  }
+}
